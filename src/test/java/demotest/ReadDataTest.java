@@ -8,7 +8,9 @@ public class ReadDataTest
 	public void readDataTest()
 	{
 		String BROWSER = System.getProperty("browser");
+		System.out.println(BROWSER);
 		String URL = System.getProperty("url");
+		System.out.println(URL);
 	}
 
 }
